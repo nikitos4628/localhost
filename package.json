@@ -12,13 +12,26 @@
   },
   "author": "",
   "license": "ISC",
+  "browsersList": [
+    "> 1%"
+  ],
   "bugs": {
     "url": "https://github.com/nikitos4628/localhost/issues"
   },
   "homepage": "https://github.com/nikitos4628/localhost#readme",
   "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "core-js": "^3.29.0",
     "eslint": "^8.34.0",
     "json-server": "^0.17.2",
     "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "es6-promise": "^4.2.8",
+    "nodelist-foreach-polyfill": "^1.2.0"
   }
 }

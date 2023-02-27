@@ -7,7 +7,6 @@ function openModal(modalSelector, modalTimerId) {
 	document.body.style.overflow = 'hidden';
 
 
-	console.log(modalTimerId);
 	if (modalTimerId) {
 		clearInterval(modalTimerId);
 	}
